@@ -1,0 +1,30 @@
+{
+  "name": "lumino-minimal",
+  "version": "0.0.1",
+  "description": "Minimal Lumino example",
+  "scripts": {
+    "build": "requirex -b index.html > dist/bundle.js",
+    "start": "./serve.bat || serve.bat"
+  },
+  "author": "Juha Järvi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjrv/lumino-minimal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jjrv/lumino-minimal/issues"
+  },
+  "homepage": "https://github.com/jjrv/lumino-minimal#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "requirex-postcss-bundle": "^0.3.2",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "@lumino/default-theme": "^0.3.2",
+    "@lumino/widgets": "^1.12.2",
+    "lumino-tsx": "^0.1.0",
+    "requirex": "^0.3.3"
+  }
+}
