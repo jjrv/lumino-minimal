@@ -4,7 +4,7 @@ This is a minimal Lumino example using TypeScript, TSX and RequireX.
 
 A [live demo](https://jjrv.github.io/lumino-minimal/) is served directly from this repository.
 
-To run it locally, clone this repository or download and extract [this zip package]().
+To run it locally, clone this repository or download and extract [this zip package](https://github.com/jjrv/lumino-minimal/archive/gh-pages.zip).
 Then run `serve.bat` (it works on Linux, Windows and OS X) and open
 [http://localhost:8080/index.html](http://localhost:8080/index.html)
 
